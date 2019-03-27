@@ -1,0 +1,17 @@
+body {
+    
+     background:/* linear-gradient(45deg, white, transparent 20%),linear-gradient(1890deg, white, transparent 20%) , */ url('../images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.jumbotron {
+  /* background: none;*/
+}
+
+#nicsonTitle {
+    background-color:rgba(rgba(192, 192, 192, 0.24);
+}
