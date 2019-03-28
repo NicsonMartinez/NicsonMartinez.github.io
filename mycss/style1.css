@@ -1,25 +1,29 @@
-/*body {
+body {
     
-  background:/* linear-gradient(45deg, white, transparent 20%),linear-gradient(1890deg, white, transparent 20%) ,gfdgs  url('../images/background.jpg') no-repeat center center fixed; 
+  /*background: linear-gradient(45deg, white, transparent 20%),linear-gradient(1890deg, white, transparent 20%)  url('../images/background.jpg') no-repeat center center fixed;*/  
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
- background-size: cover;
+ 
+ 
 
-}*/
+}
 
 .jumbotron {
   background: none;
+  
 }
 
 #jumbotronShade {
   background-color: rgba(27, 27, 27, 0.808);
   border-radius: 7px;
+  
   }
 
 #blueHighlight{
   background-color: rgba(9, 9, 90, 0.76);
   border-radius: 7px;
+  
 }
 
 
@@ -39,9 +43,8 @@ border-radius: 7px;
   background-size: cover;
   background-attachment: fixed;
   display: block;
-
+  padding-bottom: 21%;
 }
 
-#background2 {
-  
-}
+
+
