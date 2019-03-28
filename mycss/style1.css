@@ -4,28 +4,22 @@ body {
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
- 
- 
 
 }
 
 .jumbotron {
   background: none;
-  
 }
 
 #jumbotronShade {
   background-color: rgba(27, 27, 27, 0.808);
   border-radius: 7px;
-  
   }
 
 #blueHighlight{
   background-color: rgba(9, 9, 90, 0.76);
   border-radius: 7px;
-  
 }
-
 
 .card {
   background: none;
@@ -42,8 +36,22 @@ border-radius: 7px;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  display: block;
   padding-bottom: 21%;
+  padding-top: 7%;
+}
+
+.wrap {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.pos-f-t {
+height: 100%;
+width: 100%;
+position:fixed;
+z-index: 100;
 }
 
 
