@@ -4,7 +4,7 @@ body {
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
-
+ position: relative;
 }
 
 .jumbotron {
@@ -40,19 +40,6 @@ border-radius: 7px;
   padding-top: 7%;
 }
 
-.wrap {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  overflow: hidden;
-}
-
-.pos-f-t {
-height: 100%;
-width: 100%;
-position:fixed;
-z-index: 100;
-}
 
 
 
