@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
     
   /*background: linear-gradient(45deg, white, transparent 20%),linear-gradient(1890deg, white, transparent 20%)  url('../images/background.jpg') no-repeat center center fixed;*/  
@@ -26,8 +30,8 @@ body {
 }
 
 #skillsShade {
-background-color: rgba(27, 27, 27, 0.575);
-border-radius: 7px;
+  background-color: rgba(27, 27, 27, 0.575);
+  border-radius: 7px;
 }
 
 #background1 {
@@ -38,6 +42,10 @@ border-radius: 7px;
   background-attachment: fixed;
   padding-bottom: 21%;
   padding-top: 7%;
+}
+
+.menu {
+  padding-top: 100px;
 }
 
 
