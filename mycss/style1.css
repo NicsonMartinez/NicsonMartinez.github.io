@@ -45,7 +45,7 @@ body {/
 }
 
 .menu {
-  padding-top: 100px;
+  padding-top: 75px;
 }
 
 #contact {
@@ -53,6 +53,12 @@ body {/
   /*This was done to test out scrolling feature seince contact is the last div in the page so far.. 4/9/19 */
 }
 
+svg {
+  color: #fff;
+  margin-right: 5px;
+}
 
-
+svg:hover {
+  color: rgb(173, 173, 173);
+}
 
