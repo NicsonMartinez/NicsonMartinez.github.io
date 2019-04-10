@@ -2,7 +2,7 @@ html{
   scroll-behavior: smooth;
 }
 
-body {
+body {/
     
   /*background: linear-gradient(45deg, white, transparent 20%),linear-gradient(1890deg, white, transparent 20%)  url('../images/background.jpg') no-repeat center center fixed;*/  
  -webkit-background-size: cover;
@@ -12,7 +12,7 @@ body {
 }
 
 .jumbotron {
-  background: none;
+  background: none; 
 }
 
 #jumbotronShade {
@@ -46,6 +46,11 @@ body {
 
 .menu {
   padding-top: 100px;
+}
+
+#contact {
+  padding-bottom: 600px; 
+  /*This was done to test out scrolling feature seince contact is the last div in the page so far.. 4/9/19 */
 }
 
 
