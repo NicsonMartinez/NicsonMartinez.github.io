@@ -3,12 +3,13 @@ html{
 }
 
 body {
-    
-  /*background: linear-gradient(45deg, white, transparent 20%),linear-gradient(1890deg, white, transparent 20%)  url('../images/background.jpg') no-repeat center center fixed;*/  
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- position: relative;
+
+}
+.fullpageContainer {
+  
+}
+#home {
+  margin-bottom: 150px;
 }
 
 .jumbotron {
@@ -18,9 +19,10 @@ body {
 #jumbotronShade {
   background-color: rgba(27, 27, 27, 0.808);
   border-radius: 7px;
+  overflow: hidden;
   }
 
-#blueHighlight{
+.blueHighlight{
   background-color: rgba(9, 9, 90, 0.76);
   border-radius: 7px;
 }
@@ -29,23 +31,48 @@ body {
   background: none;
 }
 
+#skills {
+  padding-top: 55px;
+}
+
 #skillsShade {
-  background-color: rgba(27, 27, 27, 0.575);
+  background-color: rgba(27, 27, 27, 0.795);
   border-radius: 7px;
 }
 
+
+.windowCover{
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom:50px;
+}
 #background1 {
-  background: url('../images/background.jpg');
+  background: url('../images/background1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 21%;
-  padding-top: 7%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+#background2 {
+  background: url('../images/background2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 2%;
+  padding-bottom: 14%;
 }
 
-.menu {
-  padding-top: 75px;
+
+.option {
+  padding-top: 0px;
 }
 
 #contact {
@@ -53,12 +80,25 @@ body {
   /*This was done to test out scrolling feature seince contact is the last div in the page so far.. 4/9/19 */
 }
 
-svg {
+#homeLogo {
   color: #fff;
   margin-right: 5px;
 }
 
-svg:hover {
+#homeLogo:hover {
   color: rgb(173, 173, 173);
 }
 
+#htmlCssLogo {
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 25px;
+  opacity: 0.9;
+}
+#javaScriptLogo{
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  opacity: 0.9;
+}

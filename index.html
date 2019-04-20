@@ -9,7 +9,6 @@
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="./mycss/style1.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title>Nicson Martinez</title>
     </head>
     <body data-spy="scroll" data-target="#navbar-example2" data-offset="100">
@@ -17,32 +16,18 @@
         <div class="fullpageContainer">
 
                 <!-- Navbar -->
-                
-                <div class="pos-f-t fixed-top">
-                    <div class="collapse" id="navbarToggleExternalContent">
-                        <div class="bg-dark p-4">
-                            <p class="text-white">Contact Me!</p>
-                            <a class="btn btn-primary" href="https://www.linkedin.com/in/nicson-martinez-aa088380" target="_blank" role="button">LinkedIn</a>
-                            <a class="btn btn-danger" href="https://github.com/NicsonMartinez" target="_blank" role="button">GitHub</a>
-                            <span class="text-muted">Thanks for cheking!</span>
-                        </div>
-                    </div>
-                    <nav id="navbar-example2" class="navbar navbar-dark bg-dark">
-
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            
+                <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                    <a class="navbar-brand nav-item" href="#home">
+                        <svg id="homeLogo" width="20" height="20" alt="Home Icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="svg-inline--fa fa-home fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path>
+                        </svg>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav nav-pills justify-content-end">
-                                <i class="fas fa-home"></i>
-                            <li class="nav-item">
-                                <a class="navbar-brand" href="#home">
-                                    <svg width="20" height="20" alt="Home Icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="svg-inline--fa fa-home fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path>
-                                    </svg>
-                                </a>
-                            </li>
-
                             <li class="nav-item">
                                 <a class="nav-link text-light" href="#skills">SKILLS</a>
                             </li>
@@ -59,130 +44,144 @@
                                 <a class="nav-link text-light"  href="#contact">CONTACT</a>
                             </li>
                         </ul>
-                    </nav>
-                </div>
+                    </div>
+                </nav>
                 <!-- End Navbar -->
 
-            
                 <!--Jumbotron-Header -->
-                <div id="home">
-                    <div id="background1">    
-                        <div class="jumbotron" id="jumbotronShade">
-                                <h1 class="display-1 text-light"><span id="blueHighlight">&nbspNicson Martinez&nbsp</span></h1>
-                            <br>
-                            <div class="text-wrap">
-                                <p class="display-4 text-light"><span id="blueHighlight">&nbspSoftware Developer&nbsp<span></p>
+                <div class="windowCover">
+                    <div id="home">
+                        <div id="background1">    
+                            <div class="jumbotron" id="jumbotronShade">
+                                    <h1 class="display-1 text-light"><span class="blueHighlight">Nicson Martinez</span></h1>
+                                <br>
+                                <div class="text-wrap">
+                                    <p class="display-4 text-light"><span class="blueHighlight">Software Developer<span></p>
+                                </div>
+                                <hr class="my-4">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0 lead text-light" >"Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution."</p>
+                                    <footer class="blockquote-footer">Albert Einstein, <cite title="Source Title">What Life Means to Einstein</cite></footer>
+                                </blockquote>
+                                <a class="btn btn-dark btn-sm" href="http://www.saturdayeveningpost.com/wp-content/uploads/satevepost/what_life_means_to_einstein.pdf" target="_blank" role="button">Learn more</a>
+                                <div><br>
+                                    <p class="text-white">Contact Me!</p>
+                                    <a class="btn btn-primary" href="https://www.linkedin.com/in/nicson-martinez-aa088380" target="_blank" role="button">LinkedIn</a>
+                                    <a class="btn btn-danger" href="https://github.com/NicsonMartinez" target="_blank" role="button">GitHub</a>
+                                    <span class="text-muted">Thanks for cheking!</span>
+                                </div>
                             </div>
-                            <hr class="my-4">
-                            <blockquote class="blockquote">
-                                <p class="mb-0 lead text-light" >"Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution."</p>
-                                <footer class="blockquote-footer">Albert Einstein, <cite title="Source Title">What Life Means to Einstein</cite></footer>
-                            </blockquote>
-                            <a class="btn btn-dark btn-sm" href="http://www.saturdayeveningpost.com/wp-content/uploads/satevepost/what_life_means_to_einstein.pdf" target="_blank" role="button">Learn more</a>
-                        </div>
-                        <div class="aaa"></div>
+                        </div> 
                     </div>
-                </div>        
+                </div>     
                 <!--End Jumbotron-Header -->
 
                 <!-- Skills -->
-                <div class="menu" id="skills"> 
-                    <h1>Skills:</h1>   
-                    <div class="card-group" id="skillsShade">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                            </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
+                <div class="windowCover">
+                    <div id="skills">
+                        <div id="background2">
+                            <div class="option text-light"> 
+                                <h1 class="display-4"><span class="blueHighlight">Skills:</span></h1><br><br>
+                                <div class="card-group text-light" id="skillsShade">
+                                    <div class="card">
+                                        <img id="htmlCssLogo" src="./icons/HTML5-CSS3.png" class="card-img-top" alt="HTML5 & CSS3">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><span class="blueHighlight">&nbspHTML & CSS&nbsp</span></h5>
+                                            <p class="card-text">I have experiece using HTML features well enough to be able to apply CSS (With the the help of some useful tools/frameworks such as Bootstrap, Sass & Less) to beautify a pages.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 4/19/19</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img id="javaScriptLogo" src="./icons/js.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><span class="blueHighlight">&nbspJavaScript&nbsp</span></h5>
+                                            <p class="card-text">This  is such a poweful language which helps  create dynamic features to a static page. I also have experience with jQuery.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 4/19/19</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                        </div>
+                                    <div class="card">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
                         </div>
                     </div>
-                </div>    
+                </div>
                 <!-- End Skills -->
 
                 <!-- Portfolio -->
-                <div class="menu" id="portfolio"> 
-                    <h1>Portfolio:</h1>   
-                    <div class="card-group" id="skillsShade">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                
+                    <div class="option" id="portfolio"> 
+                        <h1>Portfolio:</h1>   
+                        <div class="card-group text-light" id="skillsShade">
+                            <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                                </div>
+                            <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                            </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>    
+                    </div>  
+                
                 <!-- End Portfolio -->
 
                 <!-- Experience -->
-                <div class="menu" id="experience"> 
+                <div class="option" id="experience"> 
                     <h1>Experience:</h1>   
                     <div class="card-group" id="skillsShade">
                         <div class="card">
@@ -230,7 +229,7 @@
                 <!-- End Experience -->
 
                 <!-- About-Me -->
-                <div class="menu" id="aboutMe"> 
+                <div class="option" id="aboutMe"> 
                     <h1>About Me:</h1>   
                     <div>
                     <p >
@@ -242,7 +241,7 @@
                 <!-- End About-Me -->
         
                 <!-- Contact -->
-                <div class="menu" id="contact"> 
+                <div class="option" id="contact"> 
                     <h1>Contact:</h1>   
                     <div class="card-group" id="skillsShade">
                         <div class="card">
@@ -297,6 +296,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="myjs/script.js"></script>
     </body>
 </html>
