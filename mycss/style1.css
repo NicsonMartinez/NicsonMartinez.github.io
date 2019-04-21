@@ -3,15 +3,15 @@ html{
 }
 
 body {
-
+  
 }
 .fullpageContainer {
-  margin-top:55px;
+  
 }
 
-/*margin below each section of the page*/
-#home, #skills {
-  margin-bottom: 150px;
+/* This is donw so that when pressing the home button*/
+#home {
+  padding-top:56px;
 }
 
 .jumbotron {
@@ -37,6 +37,9 @@ body {
 #skills, #portfolio{
   padding-top: 55px;
 }
+#home, #skills {
+  margin-bottom: 150px;
+}
 
 #skillsShade {
   background-color: rgba(27, 27, 27, 0.795);
@@ -51,7 +54,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+
 }
 
 #background1 {
@@ -60,8 +63,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-top: 10%;
-  padding-bottom: 5%;
+  padding-top: 7%;
+  padding-bottom: 8%;
 }
 #background2 {
   background: url('../images/background2.jpg');
@@ -70,7 +73,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   padding-top: 2%;
-  padding-bottom: 14%;
+  padding-bottom: 15%;
 }
 
 #background3 {
@@ -79,7 +82,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 14%;
 
 }
